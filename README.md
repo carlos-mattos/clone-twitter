@@ -1,6 +1,6 @@
 # Clone-Twitter
 
-<img src="github-readme/func.png" widht="80%" alt="func">
+<img src="github-readme/func.png" width="80%" alt="func">
 
 ## 🔖 Sobre
 O backend desenvolvido, tem por finalidade simular algumas das funcionalidades mais famosas presentes no Twitter. Dentre elas o login, like, reply, post, etc...
