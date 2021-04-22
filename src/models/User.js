@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-
 //Schema
 const Schema = mongoose.Schema;
 const userSchema = new Schema({
@@ -16,7 +15,7 @@ const userSchema = new Schema({
   password: { type: String, required: true },
   profile_pic: { type: String, required: false },
   birth_date: { type: Date, required: true },
-})
+});
 
 //Model
 const User = mongoose.model('User', userSchema);

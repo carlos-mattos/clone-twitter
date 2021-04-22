@@ -8,8 +8,8 @@ const postSchema = new Schema({
   create_date: { type: Date, required: true },
   visible: { type: Boolean, default: true },
   likes: [{ type: mongoose.Schema.Types.ObjectID, ref: 'User' }],
-  replies: [this]
-})
+  replies: [this],
+});
 
 //Model
 const Post = mongoose.model('Post', postSchema);
