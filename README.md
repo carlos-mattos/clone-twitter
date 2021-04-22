@@ -1,6 +1,6 @@
 # Clone-Twitter
 
-<img src="github-readme/func.png" alt="func">
+<img src="github-readme/func.png" widht="80%" alt="func">
 
 ## 🔖 Sobre
 O backend desenvolvido, tem por finalidade simular algumas das funcionalidades mais famosas presentes no Twitter. Dentre elas o login, like, reply, post, etc...
@@ -19,16 +19,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ```bash
 # Abra um terminal e copie este repositório com o comando
-$ git clone https://github.com/carlos-mattos/nps.git
+$ git clone https://github.com/carlos-mattos/clone-twitter.git
 # ou use a opção de download.
 
-# Entre na pasta server 
-$ cd server
+# Entre na pasta clone-twitter
+$ cd clone-twitter
 
 # Instale as dependências
 $ npm install
 
-# Rode o servidor
+# Certifique que vc tem o MongoDB instalado, e configure as variáveis de ambiente.
+# Verifique se aplicou tudo corretamente rodando o servidor.
 $ npm run dev
 ```
 
